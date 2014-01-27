@@ -7,7 +7,7 @@ class ps_zendguardloader (
 
 	file { "${apache_modules_dir}":
 		ensure => 'directory',
-		mode => 750,
+		mode => 755,
 		owner => 'root',
 	}
 	
